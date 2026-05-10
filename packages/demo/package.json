@@ -8,11 +8,11 @@
 		"github-prefix": "github:fregante/daily-version",
 		"npm-prefix": "npm:doma",
 		"npm-prefix-versioned": "npm:react@^17.0.2",
-		"@npmgraph/demo-overridden-to-version": "^0.0.0",
+		"@overridden-to-version": "^0.0.0",
 		"overridden-to-other": "^1.0.0"
 	},
 	"overrides": {
-		"@npmgraph/demo-overridden-to-version": "1.0.0",
+		"overridden-to-version": "1.0.0",
 		"overridden-to-other": "react-dom@^17.0.2",
 		"unused-override": "1.0.0"
 	}
