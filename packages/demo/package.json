@@ -1,0 +1,19 @@
+{
+	"name": "@npmgraph/demo",
+	"version": "1.0.0",
+	"description": "Supporting demo package",
+	"homepage": "https://npmgraph.js.org",
+	"dependencies": {
+		"github-shorthand": "LinusU/utc-version",
+		"github-prefix": "github:fregante/daily-version",
+		"npm-prefix": "npm:doma",
+		"npm-prefix-versioned": "npm:react@^17.0.2",
+		"@overridden-to-version": "^0.0.0-this.failed.0",
+		"overridden-to-other": "^0.0.0-this.failed.0"
+	},
+	"overrides": {
+		"overridden-to-version": "1.0.0-success",
+		"overridden-to-other": "success@^0.1.0",
+		"unused-override": "1.0.0-this.failed"
+	}
+}

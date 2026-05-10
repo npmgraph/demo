@@ -1,0 +1,7 @@
+{
+	"name": "npmgraph-demo-monorepo",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	]
+}
