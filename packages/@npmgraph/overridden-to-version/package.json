@@ -1,0 +1,6 @@
+{
+	"name": "@npmgraph/overridden-to-version",
+	"version": "1.0.0",
+	"description": "Supporting demo package",
+	"homepage": "https://npmgraph.js.org"
+}
