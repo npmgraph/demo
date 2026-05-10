@@ -1,16 +1,8 @@
 {
 	"name": "@npmgraph/demo-b",
 	"version": "1.0.0",
-	"description": "Supporting demo package for @npmgraph/demo — used to showcase met and unmet peer dependencies",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/npmgraph/demo.git",
-		"directory": "packages/demo-b"
-	},
-	"license": "MIT",
-	"publishConfig": {
-		"access": "public"
-	},
+	"description": "Supporting demo package",
+	"homepage": "https://npmgraph.js.org",
 	"dependencies": {
 		"chalk": "^5.3.0"
 	},
