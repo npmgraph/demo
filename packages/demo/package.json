@@ -1,38 +1,19 @@
 {
 	"name": "@npmgraph/demo",
 	"version": "1.0.0",
-	"description": "Demo package for testing npmgraph — showcases dependencies, devDependencies, peerDependencies, overrides, npm: aliases, github: deps, and 404 packages",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/npmgraph/demo.git",
-		"directory": "packages/demo"
-	},
-	"license": "MIT",
-	"publishConfig": {
-		"access": "public"
-	},
+	"description": "Supporting demo package",
+	"homepage": "https://npmgraph.js.org",
 	"dependencies": {
-		"@npmgraph/demo-b": "*",
-		"express": "^4.18.0",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"react-compat": "npm:react@^17.0.2"
-	},
-	"optionalDependencies": {
-		"github-shorthand": "nicolo-ribaudo/tc39-proposal-string-prototype-left-pad",
-		"github-prefixed": "github:fregante/webext-content-scripts",
-		"this-package-404": "npm:@npmgraph/this-does-not-exist-404@^1.0.0"
-	},
-	"devDependencies": {
-		"typescript": "^5.0.0"
-	},
-	"peerDependencies": {
-		"webpack": ">=5"
+		"@npmgraph/github-shorthand": "LinusU/utc-version",
+		"@npmgraph/github-prefix": "github:fregante/daily-version",
+		"@npmgraph/npm-prefix": "npm:doma",
+		"@npmgraph/npm-prefix-versioned": "npm:react@^17.0.2",
+		"@npmgraph/overridden-to-version": "^0.0.0",
+		"@npmgraph/overridden-to-other": "^1.0.0"
 	},
 	"overrides": {
-		"express": {
-			"debug": "^4.3.4"
-		},
-		"@npmgraph/this-override-does-not-exist": "1.0.0"
+		"@npmgraph/overridden-to-version": "1.0.0",
+		"@npmgraph/overridden-to-other": "react-dom@^17.0.2",
+		"@npmgraph/unused-override": "1.0.0"
 	}
 }
