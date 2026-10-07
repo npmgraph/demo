@@ -15,5 +15,14 @@
 		"overridden-to-version": "1.0.0-success",
 		"overridden-to-other": "success@^0.1.0",
 		"unused-override": "1.0.0-this.failed"
+	},
+	"devDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"optionalDependencies": {
+		"fsevents": "^2.3.3"
+	},
+	"peerDependencies": {
+		"react": ">=18"
 	}
 }
